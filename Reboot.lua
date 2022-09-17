@@ -11,6 +11,7 @@ local TextButton_2 = Instance.new("TextButton")
 local UIGradient = Instance.new("UIGradient")
 local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -66,32 +67,44 @@ TextButton_2.TextWrapped = true
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(134, 47, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 20, 255))}
 UIGradient.Parent = GUI2
 
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 129, 117)
+TextLabel.Parent = GUI2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
-TextLabel.Size = UDim2.new(0, 563, 0, 40)
+TextLabel.Position = UDim2.new(0.00100028957, 0, 0.309027761, 0)
+TextLabel.Size = UDim2.new(0, 561, 0, 29)
 TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "Shadow's Hub"
-TextLabel.TextColor3 = Color3.fromRGB(255, 129, 117)
+TextLabel.Text = "You Must Click 3 Times On The Buttons To Confirm."
+TextLabel.TextColor3 = Color3.fromRGB(83, 255, 175)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
 TextLabel_2.Parent = Frame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 129, 117)
 TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.Position = UDim2.new(-0.00277791265, 0, 0.180555552, 0)
-TextLabel_2.Size = UDim2.new(0, 563, 0, 28)
+TextLabel_2.Size = UDim2.new(0, 563, 0, 40)
 TextLabel_2.Font = Enum.Font.FredokaOne
-TextLabel_2.Text = "Rebooting The Game Will UnInject Shadow's Hub. Are You Sure ?"
-TextLabel_2.TextColor3 = Color3.fromRGB(129, 97, 255)
+TextLabel_2.Text = "Shadow's Hub"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 129, 117)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(-0.00277791265, 0, 0.180555552, 0)
+TextLabel_3.Size = UDim2.new(0, 563, 0, 28)
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "Rebooting The Game Will UnInject Shadow's Hub. Are You Sure ?"
+TextLabel_3.TextColor3 = Color3.fromRGB(129, 97, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
 -- Scripts:
 
-local function ICDXUH_fake_script() -- TextButton.LocalScript 
+local function ONKC_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -99,8 +112,8 @@ local function ICDXUH_fake_script() -- TextButton.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/zShadowSkilled1/Shadow-s-Hub/main/main.lua", true))()
 	end)
 end
-coroutine.wrap(ICDXUH_fake_script)()
-local function LYRHPRO_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(ONKC_fake_script)()
+local function TBNR_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -108,8 +121,8 @@ local function LYRHPRO_fake_script() -- TextButton_2.LocalScript
 		game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 	end)
 end
-coroutine.wrap(LYRHPRO_fake_script)()
-local function WGMTEDM_fake_script() -- Frame.LocalScript 
+coroutine.wrap(TBNR_fake_script)()
+local function XYZU_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	
@@ -148,4 +161,4 @@ local function WGMTEDM_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WGMTEDM_fake_script)()
+coroutine.wrap(XYZU_fake_script)()
