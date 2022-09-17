@@ -91,7 +91,7 @@ TextLabel_2.TextWrapped = true
 
 -- Scripts:
 
-local function MZCFA_fake_script() -- TextButton.LocalScript 
+local function ICDXUH_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -99,17 +99,17 @@ local function MZCFA_fake_script() -- TextButton.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/zShadowSkilled1/Shadow-s-Hub/main/main.lua", true))()
 	end)
 end
-coroutine.wrap(MZCFA_fake_script)()
-local function JFQA_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(ICDXUH_fake_script)()
+local function LYRHPRO_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.Parent.Parent.GUI.Enabled = false
+		--script.Parent.Parent.Parent.Parent.Parent.GUI.Enabled = false
 		game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 	end)
 end
-coroutine.wrap(JFQA_fake_script)()
-local function XWZOBNG_fake_script() -- Frame.LocalScript 
+coroutine.wrap(LYRHPRO_fake_script)()
+local function WGMTEDM_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	
@@ -148,4 +148,4 @@ local function XWZOBNG_fake_script() -- Frame.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XWZOBNG_fake_script)()
+coroutine.wrap(WGMTEDM_fake_script)()
